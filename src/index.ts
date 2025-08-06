@@ -3,7 +3,6 @@ import express, { type Application, type NextFunction, type Request, type Respon
 const port = 8080;
 const app: Application = express();
 
-
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
