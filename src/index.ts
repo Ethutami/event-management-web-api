@@ -1,4 +1,6 @@
-import express, { type Application, type NextFunction, type Request, type Response } from "express";
+import express from 'express';
+import type { Application, Request, Response, NextFunction } from 'express';
+
 
 const port = 8080;
 const app: Application = express();
